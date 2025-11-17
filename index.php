@@ -142,4 +142,21 @@ include 'controllers/indexctrl.php'
             <input type="submit" name="validform" value="Envoyer">
         </form>
     </section>
+    <section>
+        <h6>Contact</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit recusandae rerum maiores quia suscipit
+            consectetur, minima sunt, ducimus laborum tempore nam nobis vitae, voluptatibus neque repellat error
+            reprehenderit consequatur.</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1468783.7543398235!2d3.476597869433824!3d44.02721608813505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8242735957488a81%3A0xd1d0fd514c531b95!2sPaumalec!5e0!3m2!1sfr!2sfr!4v1763389607288!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>
+            Paumalec, St Name Street, Marseille, France
+        </p>
+        <!--Positionnement api google avis-->
+    </section>
 </main>
+<?php
+include 'Includes/footer.php'
+?>
