@@ -7,7 +7,7 @@
     <title>Paumalec</title>
 </head>
 <body>
-    <header id="bg-blue">
+    <header class="bg-blue">
         <div>
             <a href="#"><img src="./assets/img/LogoPaumalec" alt="Logo de l'entreprise."></a>
         </div>
