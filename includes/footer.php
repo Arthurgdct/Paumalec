@@ -1,4 +1,4 @@
-<footer>
+<footer class="bg-blue">
     <div>
         <img src="./assets/img/LogoPaumalec.png" alt="Logo de l'entreprise Paumalec">
         <div>
@@ -27,4 +27,9 @@
             <img src="./assets/img/X" alt="Logo X">
         </div>
     </div>
+
 </footer>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>

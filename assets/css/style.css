@@ -2,10 +2,29 @@
     font-family: 'MyriadPro';
     src: url(../font/MYRIADPRO-REGULAR.OTF);
 }
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url(../font/MYRIADPRO-BOLD.OTF);
+}
 body {
+    padding: 0;
+    margin: 0;
     font-family: 'MyriadPro', sans-serif;
 }
 
+/*------class-----*/
+.p1 {
+    padding: 1rem;
+}
+.m1 {
+    margin: 1rem;
+}
+.border-radius {
+    border-radius: 30px;
+}
+.bold {
+    font-family: 'MyriadProBold',sans-serif;
+}
 .bg-blue {
     background-color: #09406f;
 }
@@ -14,21 +33,109 @@ body {
     background-color: #fff;
 }
 
-#infoacceuil {
+.yellow {
+    color: #f5c30a;
+}
+
+.white {
+    color: #fff;
+}
+/*----menu burger----*/
+
+/* Icône burger */
+.burger-icon {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.burger-icon span {
+    height: 3px;
+    background-color: #000;
+    width: 100%;
+    transition: 0.3s;
+}
+
+/* Menu caché par défaut */
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    right: -500px;
+    width: 250px;
+    height: 100vh;
+    background: #ffffff;
+    padding: 40px 20px;
+    transition: 0.3s;
+    box-shadow: -3px 0 10px rgba(0,0,0,0.1);
+}
+
+#mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mobile-nav li {
+    margin-bottom: 20px;
+}
+
+#mobile-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Menu ouvert */
+#mobile-nav.open {
+    right: 0;
+}
+
+/* Animation burger → X */
+.burger-icon.open span:nth-child(1) {
+    transform: rotate(45deg) translateY(10px);
+}
+
+.burger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-icon.open span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
+}
+
+/*-----accueil-------*/
+#infoaccueil {
     display: flex;
     justify-content: space-around;
+}
+#bubble {
+    width: 20%;
 }
 
 #accueil {
     background-image: url(../img/BackgroundAccueil.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 1rem;
+    height: 45rem;
 }
 
-#bulleacceuil {
-    padding-left: 1rem;
-    max-width: 35%;
-    border-radius: 5%;
+/*confiance*/
+#confiance-logo img {
+    width: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#confiance-logo #sources {
+    width: 7rem;
+}
+
+#confiance-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

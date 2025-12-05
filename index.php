@@ -3,13 +3,13 @@ include 'controllers/indexctrl.php'
     ?>
 <main>
     <section id="accueil">
-        <h1>Paumalec Spécialisé dans le secteur tertiaire</h1>
-        <div id="infoacceuil">
+        <h1 class="bold">Paumalec Spécialisé dans le secteur tertiaire</h1>
+        <div id="infoaccueil">
             <div>
                 <p> Votre partenaire électricité pour les professionels</p>
                 <button>Contact</button>
             </div>
-            <div class="bg-white" id="bulleacceuil">
+            <div class="bg-white border-radius m1 p1" id="bubble">
                 <h2>Des interventions fiables pour vos infrastructures</h2>
                 <p>Nous accompagnons les entreprises, commerces et collectivités dans tous leurs projets électriques:
                     Installations neuves, rénovation, mise au normes, maintenance et solutions défficacité énergétique.
@@ -17,9 +17,9 @@ include 'controllers/indexctrl.php'
             </div>
         </div>
     </section>
-    <section>
+    <section id="intro" class="white bg-blue">
         <div>
-            <h3>Qui sommes nous ?</h3>
+            <h3><span class="yellow">Q</span>ui sommes nous ?</h3>
             <p>Paumalec est une entreprise d'électricité spécialisée dans le secteur tertiaire, au service des
                 professionnels depuis plus de 20 ans.</p>
         </div>
@@ -38,29 +38,33 @@ include 'controllers/indexctrl.php'
             </div>
         </div>
     </section>
-    <section>
+    <section id="confiance">
         <div>
-            <h4>Ils nous font confiance</h4>
+            <h4><span class="yellow">I</span>ls nous font confiance</h4>
             <p>Nous sommes fiers d'accompagner des entreprises majeurs de notre région et des acteurs nationnaux.
                 Leurs confiance est le reflet de la qualité de nos interventions et du sérieux dont notre équipe fait
                 preuve sur chaque chantier.
                 Un grand merci à tous nos client pour leur fidélité.
             </p>
-            <div>
-                <img src="assets/img/EiffageGC" alt="Logo Eiffage génie civil">
-                <img src="assets/img/logo-pum" alt="Logo PUM">
-                <img src="assets/img/Renault" alt="Logo Renault">
-                <img src="assets/img/Sourcesdallauch" alt="Logo Sources d'allauche">
-                <img src="assets/img/Edf" alt="Logo Edf">
-                <img src="assets/img/EiffageR" alt="Logo Eiffage Route">
-                <img src="assets/img/Logo_ecole_lacordaire" alt="Logo Ecole lacordaire">
-                <img src="assets/img/VisualOpticien" alt="Logo Visual Opticien">
+            <div id="confiance-logo">
+                <div>
+                    <img src="assets/img/EiffageGC" alt="Logo Eiffage génie civil">
+                    <img src="assets/img/logo-pum" alt="Logo PUM">
+                    <img src="assets/img/Renault" alt="Logo Renault">
+                    <img id="sources" src="assets/img/Sourcesdallauch" alt="Logo Sources d'allauche">
+                </div>
+                <div>
+                    <img src="assets/img/Edf" alt="Logo Edf">
+                    <img src="assets/img/EiffageR" alt="Logo Eiffage Route">
+                    <img src="assets/img/Logo_ecole_lacordaire" alt="Logo Ecole lacordaire">
+                    <img src="assets/img/VisualOpticien" alt="Logo Visual Opticien">
+                </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="services" class="bg-blue white">
         <div>
-            <h5>Nos Services</h5>
+            <h5><span class="yellow">N</span>os Services</h5>
         </div>
         <div>
             <div>
@@ -105,8 +109,8 @@ include 'controllers/indexctrl.php'
             </div>
         </div>
     </section>
-    <section>
-        <h6>Nos réalisations</h6>
+    <section id="realisations">
+        <h6><span class="yellow">N</span>os réalisations</h6>
         <p></p>
         <div>
             <div>
@@ -128,8 +132,8 @@ include 'controllers/indexctrl.php'
         </div>
         <button>Nos réalisations</button>
     </section>
-    <section>
-        <h6>Devis</h6>
+    <section id="devis" class="bg-blue">
+        <h6 class="yellow">Devis</h6>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In hic excepturi saepe quis ea deleniti tempore.
             Quasi, totam molestiae corporis magnam commodi tempore, provident corrupti consequatur officia laborum,
             aperiam beataem.</p>
@@ -143,8 +147,8 @@ include 'controllers/indexctrl.php'
             <input type="submit" name="validform" value="Envoyer">
         </form>
     </section>
-    <section>
-        <h6>Contact</h6>
+    <section id="contact">
+        <h6><span class="yellow">C</span>ontact</h6>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit recusandae rerum maiores quia suscipit
             consectetur, minima sunt, ducimus laborum tempore nam nobis vitae, voluptatibus neque repellat error
             reprehenderit consequatur.</p>
@@ -155,7 +159,7 @@ include 'controllers/indexctrl.php'
         <p>
             Paumalec, St Name Street, Marseille, France
         </p>
-        <!--Positionnement api google avis-->
+        <div class="commonninja_component pid-829c0955-b8e3-4c2d-b9d0-fe30ae8ad57a"></div>
     </section>
 </main>
 <?php
