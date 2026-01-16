@@ -47,68 +47,41 @@ include 'controllers/indexctrl.php'
                 Un grand merci à tous nos client pour leur fidélité.
             </p>
             <div id="confiance-logo">
-                <div>
-                    <img src="assets/img/EiffageGC" alt="Logo Eiffage génie civil">
-                    <img src="assets/img/logo-pum" alt="Logo PUM">
-                    <img src="assets/img/Renault" alt="Logo Renault">
-                    <img id="sources" src="assets/img/Sourcesdallauch" alt="Logo Sources d'allauche">
-                </div>
-                <div>
-                    <img src="assets/img/Edf" alt="Logo Edf">
-                    <img src="assets/img/EiffageR" alt="Logo Eiffage Route">
-                    <img src="assets/img/Logo_ecole_lacordaire" alt="Logo Ecole lacordaire">
-                    <img src="assets/img/VisualOpticien" alt="Logo Visual Opticien">
-                </div>
+                <div><img src="assets/img/EiffageGC.png"></div>
+                <div><img src="assets/img/logo-pum.png"></div>
+                <div><img src="assets/img/Renault.png"></div>
+                <div><img src="assets/img/Sourcesdallauch.png"></div>
+                <div><img src="assets/img/Edf.png"></div>
+                <div><img src="assets/img/EiffageR.png"></div>
+                <div><img src="assets/img/Logo_ecole_lacordaire.png"></div>
+                <div><img src="assets/img/VisualOpticien.png"></div>
             </div>
+        </div>
         </div>
     </section>
-    <section id="services" class="bg-blue white">
-        <div>
-            <h5><span class="yellow">N</span>os Services</h5>
-        </div>
-        <div>
-            <div>
-                <p>Electricité général</p>
-                <p>Installation, rénovation, mise en conformité de vos réseaux électriques (distribution, éclairage,
-                    tableaux, protection, cablage et maintenance)</p>
-            </div>
-            <div>
-                <div>
-                    <p>climatisation</p>
-                    <p>Installation, réparation et maintenance</p>
-                </div>
-                <div>
-                    <p>système de sécurité</p>
-                    <p>Installation, réparation et maintenance (alarames, caméras, vidéosuverillances)</p>
-                </div>
-                <div>
-                    <p>Borne de recharge</p>
-                    <p>Installation, réparation et maintenance</p>
-                </div>
-                <div>
-                    <p>Domotique</p>
-                    <p>Programmation</p>
-                </div>
-                <div>
-                    <p>Volet roulant</p>
-                    <p>Installation, motorisation et maintenance sur-mesure</p>
-                </div>
-                <div>
-                    <p>Electricité solaire</p>
-                    <p>Installation de panneaux photovoltaïques, réduction énergétique</p>
-                </div>
-                <div>
-                    <p>Automatisme</p>
-                    <p>Motorisation et dépannage de portails automatiques</p>
-                </div>
-                <div>
-                    <p>Installation de chantier</p>
-                    <p>Raccordement intégral de module temporaire de chantier. Tableaux provisoires, éclairages et
-                        sécurité</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="services" class="bg-blue white">
+    <div class="services-header">
+        <h5><span class="yellow">N</span>os Services</h5>
+    </div>
+
+    <div class="services-grid">
+        <div class="service-card large"><img src="assets/img/cadreelectricite.png"></div>
+
+        <div class="service-card"><img src="assets/img/cadreclimatisation.png"></div>
+        <div class="service-card"><img src="assets/img/cadresecu.png"></div>
+        <div class="service-card"><img src="assets/img/cadreborne.png"></div>
+        <div class="service-card"><img src="assets/img/cadredomotique.png"></div>
+        <div class="service-card"><img src="assets/img/cadrevolet.png"></div>
+        <div class="service-card"><img src="assets/img/cadreelectricitesolaire.png"></div>
+        <div class="service-card"><img src="assets/img/cadreautomatisme.png"></div>
+        <div class="service-card"><img src="assets/img/cadreinstallation.png"></div>
+    </div>
+</section>
+
+
+
+
+
     <section id="realisations">
         <h6><span class="yellow">N</span>os réalisations</h6>
         <p></p>
