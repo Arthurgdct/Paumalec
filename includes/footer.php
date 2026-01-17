@@ -22,9 +22,6 @@
     <div>
         <p>Copyright | Paumalec</p>
         <div>
-            <img src="./assets/img/Instagram" alt="Logo Instagram">
-            <img src="./assets/img/Facebook" alt="Logo Facebook">
-            <img src="./assets/img/X" alt="Logo X">
         </div>
     </div>
 

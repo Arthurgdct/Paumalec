@@ -1,6 +1,6 @@
 <?php
-include 'controllers/indexctrl.php'
-    ?>
+include 'Includes/header.php'
+?>
 <main>
     <section id="accueil">
         <h1 class="bold">Paumalec Spécialisé dans le secteur tertiaire</h1>
@@ -59,82 +59,84 @@ include 'controllers/indexctrl.php'
         </div>
         </div>
     </section>
-<section id="services" class="bg-blue white">
-    <div class="services-header">
-        <h5><span class="yellow">N</span>os Services</h5>
-    </div>
-
-    <div class="services-grid">
-        <div class="service-card large"><img src="assets/img/cadreelectricite.png"></div>
-
-        <div class="service-card"><img src="assets/img/cadreclimatisation.png"></div>
-        <div class="service-card"><img src="assets/img/cadresecu.png"></div>
-        <div class="service-card"><img src="assets/img/cadreborne.png"></div>
-        <div class="service-card"><img src="assets/img/cadredomotique.png"></div>
-        <div class="service-card"><img src="assets/img/cadrevolet.png"></div>
-        <div class="service-card"><img src="assets/img/cadreelectricitesolaire.png"></div>
-        <div class="service-card"><img src="assets/img/cadreautomatisme.png"></div>
-        <div class="service-card"><img src="assets/img/cadreinstallation.png"></div>
-    </div>
-</section>
-
-
-
-
-
-    <section id="realisations">
-        <h6><span class="yellow">N</span>os réalisations</h6>
-        <p></p>
-        <div>
-            <div>
-                <img src="assets/img/1avant" alt="">
-                <p>Avant</p>
-            </div>
-            <div>
-                <img src="assets/img/2apres" alt="">
-                <p>Après</p>
-            </div>
-            <div>
-                <img src="assets/img/3avant" alt="">
-                <p>Avant</p>
-            </div>
-            <div>
-                <img src="assets/img/4apres" alt="">
-                <p>Après</p>
-            </div>
+    <section id="services" class="bg-blue white">
+        <div class="services-header">
+            <h5><span class="yellow">N</span>os Services</h5>
         </div>
-        <button>Nos réalisations</button>
+
+        <div class="services-grid">
+            <div class="service-card large"><img src="assets/img/cadreelectricite.png"></div>
+
+            <div class="service-card"><img src="assets/img/cadreclimatisation.png"></div>
+            <div class="service-card"><img src="assets/img/cadresecu.png"></div>
+            <div class="service-card"><img src="assets/img/cadreborne.png"></div>
+            <div class="service-card"><img src="assets/img/cadredomotique.png"></div>
+            <div class="service-card"><img src="assets/img/cadrevolet.png"></div>
+            <div class="service-card"><img src="assets/img/cadreelectricitesolaire.png"></div>
+            <div class="service-card"><img src="assets/img/cadreautomatisme.png"></div>
+            <div class="service-card"><img src="assets/img/cadreinstallation.png"></div>
+        </div>
     </section>
-    <section id="devis" class="bg-blue">
-        <h6 class="yellow">Devis</h6>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In hic excepturi saepe quis ea deleniti tempore.
-            Quasi, totam molestiae corporis magnam commodi tempore, provident corrupti consequatur officia laborum,
-            aperiam beataem.</p>
-        <form action="index.php" method="post">
-            <div>
-                <input type="text" name="nom" id="nom" placeholder="Nom">
-                <input type="text" name="societe" id="societe" placeholder="Société">
-            </div>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="text" name="message" id="message">
-            <input type="submit" name="validform" value="Envoyer">
-        </form>
+    <section class="realisations">
+        <h2><span class="yellow">N</span>os Réalisations</h2>
+        <div class="realisations-grid">
+            <div class="real-card" data-full="assets/img/full1.jpg"> <img src="assets/img/thumb1.jpg"
+                    alt="Réalisation 1"> </div>
+            <div class="real-card" data-full="assets/img/full2.jpg"> <img src="assets/img/thumb2.jpg"
+                    alt="Réalisation 2"> </div>
+            <div class="real-card" data-full="assets/img/full3.jpg"> <img src="assets/img/thumb3.jpg"
+                    alt="Réalisation 3"> </div>
+            <div class="real-card" data-full="assets/img/full4.jpg"> <img src="assets/img/thumb4.jpg"
+                    alt="Réalisation 4"> </div>
+        </div>
+        <div class="popup" id="popup"> <span class="close">&times;</span> <img id="popup-img" alt="Agrandissement">
+        </div>
     </section>
-    <section id="contact">
-        <h6><span class="yellow">C</span>ontact</h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sit recusandae rerum maiores quia suscipit
-            consectetur, minima sunt, ducimus laborum tempore nam nobis vitae, voluptatibus neque repellat error
-            reprehenderit consequatur.</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1468783.7543398235!2d3.476597869433824!3d44.02721608813505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8242735957488a81%3A0xd1d0fd514c531b95!2sPaumalec!5e0!3m2!1sfr!2sfr!4v1763389607288!5m2!1sfr!2sfr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>
-            Paumalec, St Name Street, Marseille, France
+    </section>
+    <section class="devis-section">
+        <h2 class="devis-title"><span>D</span>evis</h2>
+
+        <div class="devis-overlay">
+            <p>Prenez un instant pour nous transmettre votre demande : notre équipe vous prépare un devis personnalisé,
+                pour répondre à vos besoins et vous accompagner dans la réalisation de votre projet.</p>
+            <form id="devisf" class="devis-form" method="POST">
+                <div class="form-row">
+                    <input type="text" name="nom" placeholder="Nom" required>
+                    <input type="text" name="societe" placeholder="Société" required>
+                </div>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Votre demande..." required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="form-message"></p>
+        </div>
+    </section>
+    <section class="contact-section">
+        <h2 class="contact-title"><span>C</span>ontact</h2>
+
+        <p class="contact-intro">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </p>
+
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1468297.1701581897!2d4.6556381!3d44.0468495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8242735957488a81%3A0xd1d0fd514c531b95!2sPaumalec!5e0!3m2!1sfr!2sfr!4v1768665355964!5m2!1sfr!2sfr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-infos">
+            <h3>Paumalec</h3>
+            <p>10 MTE MILOU 13013 MARSEILLE</p>
+            <p>France</p>
+        </div>
+    </section>
+    <section>
         <div class="commonninja_component pid-829c0955-b8e3-4c2d-b9d0-fe30ae8ad57a"></div>
     </section>
+
 </main>
 <?php
 include 'Includes/footer.php'
-    ?>
+?>
