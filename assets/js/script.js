@@ -61,3 +61,34 @@ document.getElementById("devisf").addEventListener("submit", async function(e) {
     }
 });
 
+
+const openPopup = document.getElementById("openPopup");
+const closePopup = document.getElementById("closePopup");
+const popupOverlay = document.getElementById("popupOverlay");
+
+openPopup.addEventListener("click", () => {
+  popupOverlay.style.display = "flex";
+});
+
+closePopup.addEventListener("click", () => {
+  popupOverlay.style.display = "none";
+});
+
+popupOverlay.addEventListener("click", (e) => {
+  if (e.target === popupOverlay) {
+    popupOverlay.style.display = "none";
+  }
+});
+
+const burgerBtn = document.getElementById("burgerBtn");
+const mobileMenu = document.getElementById("mobileMenu");
+
+burgerBtn.addEventListener("click", () => {
+  burgerBtn.classList.toggle("active");
+  mobileMenu.classList.toggle("open");
+});
+
+
+
+
+

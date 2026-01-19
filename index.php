@@ -3,7 +3,7 @@ include 'Includes/header.php'
 ?>
 <main>
     <section id="accueil">
-        <h1 class="bold">Paumalec Spécialisé dans le secteur tertiaire</h1>
+        <h1 class="bold">Paumalec<br>Spécialisé dans<br>le secteur tertiaire</h1>
         <div id="infoaccueil">
             <div>
                 <p> Votre partenaire électricité pour les professionels</p>
@@ -27,11 +27,8 @@ include 'Includes/header.php'
             <img src="assets/img/electricien" alt="Photo d'un électricien de l'entreprise en pleine intervention.">
             <div>
                 <p>Chaque intervention fait preuve de la même exigeance afin de fournir un travail fiable soigné et
-                    durable.
-                    Cette constance nous a permis de bâtir une relation de confiance solide avec nos clients, dont
-                    beaucoup nous suivent depuis le début.
-
-                    Notre plus grande force est donc ce lien de confiance entre client et artisan que nous entretenons
+                    durable.<br>Cette constance nous a permis de bâtir une relation de confiance solide avec nos clients, dont
+                    beaucoup nous suivent depuis le début.<br>Notre plus grande force est donc ce lien de confiance entre client et artisan que nous entretenons
                     par des interventions de qualité, avec des tarifs juste et adaptés à leurs besoins.
                 </p>
                 <button>Contact</button>
@@ -91,6 +88,7 @@ include 'Includes/header.php'
         </div>
         <div class="popup" id="popup"> <span class="close">&times;</span> <img id="popup-img" alt="Agrandissement">
         </div>
+        <button class="realisations-btn" id="openPopup">Nos réalisations</button>
     </section>
     </section>
     <section class="devis-section">
@@ -113,11 +111,9 @@ include 'Includes/header.php'
     </section>
     <section class="contact-section">
         <h2 class="contact-title"><span>C</span>ontact</h2>
-
         <p class="contact-intro">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            Proches de vous, nous mettons notre expertise au service de vos projets, avec sérieux et efficacité.
         </p>
-
         <div class="contact-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1468297.1701581897!2d4.6556381!3d44.0468495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8242735957488a81%3A0xd1d0fd514c531b95!2sPaumalec!5e0!3m2!1sfr!2sfr!4v1768665355964!5m2!1sfr!2sfr"
@@ -132,7 +128,7 @@ include 'Includes/header.php'
             <p>France</p>
         </div>
     </section>
-    <section>
+    <section class="avis">
         <div class="commonninja_component pid-829c0955-b8e3-4c2d-b9d0-fe30ae8ad57a"></div>
     </section>
 
