@@ -8,31 +8,28 @@
     <div class="footer-bottom">
         <div class="footer-content">
             <div class="footer-left">
-                <a href=""><img src="./assets/img/paumbot.png" alt=""></a>
+                <a href="/paumalec"><img src="./assets/img/paumbot.png" alt=""></a>
                 <div class="footer-links">
                     <ul>
-                        <li><a href="#">Qui sommes nous ?</a></li>
-                        <li><a href="#">Ils nous font confiance</a></li>
-                        <li><a href="#">Nos services</a></li>
-                        <li><a href="#">Nos réalisations</a></li>
-                        <li><a href="#">Devis</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Avis</a></li>
+                        <li><a href="#intro">Qui sommes nous ?</a></li>
+                        <li><a href="#confiance">Ils nous font confiance</a></li>
+                        <li><a href="#services">Nos services</a></li>
+                        <li><a href="#realisations">Nos réalisations</a></li>
+                        <li><a href="#devis">Devis</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
                     <ul>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Cookies</a></li>
+                        <li><a href="conditions.php">Conditions d'utilisation</a></li>
                     </ul>
                 </div>
                 <p class="copyright">© Paumalec</p>
             </div>
         </div>
         <div class="footer-socials">
-            <a href="#"><img src="./assets/img/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="./assets/img/Facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="./assets/img/X.png" alt="X / twitter"></a>
+            <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/"><img src="./assets/img/Facebook.png" alt="Facebook"></a>
+            <a href="https://x.com"><img src="./assets/img/X.png" alt="X / twitter"></a>
         </div>
     </div>
 </footer>

@@ -74,24 +74,24 @@ include 'Includes/header.php'
             <div class="service-card"><img src="assets/img/cadreinstallation.png"></div>
         </div>
     </section>
-    <section class="realisations">
+    <section id="realisations" class="realisations">
         <h2><span class="yellow">N</span>os Réalisations</h2>
         <div class="realisations-grid">
             <div class="real-card" data-full="assets/img/full1.jpg"> <img src="assets/img/thumb1.jpg"
-                    alt="Réalisation 1"> </div>
+                    alt="salle de massage avec éclairage bleu"> </div>
             <div class="real-card" data-full="assets/img/full2.jpg"> <img src="assets/img/thumb2.jpg"
-                    alt="Réalisation 2"> </div>
+                    alt="intérieur d'un spa"> </div>
             <div class="real-card" data-full="assets/img/full3.jpg"> <img src="assets/img/thumb3.jpg"
-                    alt="Réalisation 3"> </div>
+                    alt="salle de massage avec plafond végétal"> </div>
             <div class="real-card" data-full="assets/img/full4.jpg"> <img src="assets/img/thumb4.jpg"
-                    alt="Réalisation 4"> </div>
+                    alt="piscine avec rétro-éclairage au plafond"> </div>
         </div>
         <div class="popup" id="popup"> <span class="close">&times;</span> <img id="popup-img" alt="Agrandissement">
         </div>
         <button class="realisations-btn" id="openPopup">Nos réalisations</button>
     </section>
     </section>
-    <section class="devis-section">
+    <section id="devis" class="devis-section">
         <h2 class="devis-title"><span>D</span>evis</h2>
 
         <div class="devis-overlay">
@@ -109,7 +109,7 @@ include 'Includes/header.php'
             <p id="form-message"></p>
         </div>
     </section>
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <h2 class="contact-title"><span>C</span>ontact</h2>
         <p class="contact-intro">
             Proches de vous, nous mettons notre expertise au service de vos projets, avec sérieux et efficacité.

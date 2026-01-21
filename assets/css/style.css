@@ -11,7 +11,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'MyriadPro','MyriadProBold', sans-serif;
 }
 
 /* ===== VARIABLES ===== */
@@ -41,7 +41,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #0a1f3d;
+    background-color: #09406f;
     padding: 0.8rem 1.5rem;
     z-index: 10000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
@@ -86,7 +86,7 @@ body {
     right: -100%;
     width: 22%;
     height: calc(100vh - 60px);
-    background-color: #0a1f3d;
+    background-color: #09406f;
     padding: 2rem 1.5rem;
     transition: right 0.3s ease;
 }
@@ -140,8 +140,8 @@ body {
 
 /* Titre principal */
 #accueil h1 {
+    font-family: var(--font-bold);
     font-size: 80px;
-    margin: auto 0;
     /* aligné à gauche */
     line-height: 1.2;
     color: #000;
@@ -176,13 +176,13 @@ body {
 /* Bouton */
 #infoaccueil button {
     padding: 0.8rem 1.8rem;
-    background-color: #f5c30a;
+    background-color: var(--yellow);
     border: none;
     border-radius: 30px;
     font-weight: bold;
     cursor: pointer;
     font-size: 1rem;
-    color: #fff;
+    color: #000;
     /* texte blanc */
 }
 
@@ -307,7 +307,7 @@ body {
 #confiance>div>p {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 3rem auto;
+    margin: 4rem auto 8rem auto;
     font-size: 1.1rem;
     line-height: 1.6;
 }
@@ -435,8 +435,9 @@ body {
 }
 
 .popup img {
-    max-width: 90%;
-    max-height: 90%;
+    margin-top: 5%;
+    max-width: 85%;
+    max-height: 85%;
     border-radius: 10px;
 }
 
@@ -475,7 +476,7 @@ body {
     display: block;
     margin: 3rem auto 0;
     padding: 0.8rem 2.5rem;
-    color: #09406f;
+    color: #000;
     font-weight: 600;
     font-size: 1.1rem;
     border: none;
@@ -550,14 +551,14 @@ body {
 }
 
 .entrp {
-    color: #09406f;
+    color: var(--blue);
     margin-top: 2%;
 }
 
 /*SECTION DEVIS*/
 .devis-section {
     background-image: url('../img/devis-bg.jpg.png');
-    /* ton image de fond */
+    /* image de fond */
     background-size: cover;
     background-position: center;
     padding: 5rem 2rem;
@@ -582,8 +583,7 @@ body {
 }
 
 .devis-overlay h2 span {
-    color: #FFD700;
-    /* jaune de ta DA */
+    color: var(--yellow);
 }
 
 .devis-overlay p {
@@ -622,12 +622,14 @@ body {
 }
 
 .devis-form button {
-    background-color: #FFD700;
+    font-size: 1rem;
+    font-family: var(--font-main);
+    background-color: var(--yellow);
     color: black;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 0.8rem 2.5rem;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 50px;
     cursor: pointer;
     align-self: flex-start;
 }
@@ -640,8 +642,7 @@ body {
 }
 
 .devis-title span {
-    color: #FFD700;
-    /* ton jaune */
+    color: var(--yellow);
 }
 
 /*SECTION DEVIS*/
@@ -658,15 +659,13 @@ body {
     content: "";
     position: absolute;
     right: -150px;
-    top: 20%;
-    width: 400px;
-    height: 400px;
-    background: #0043a1;
-    /* bleu */
-    filter: blur(70px);
+    top: 40%;
+    width: 350px;
+    height: 350px;
+    background: var(--blue);
+    filter: blur(50px);
     border-radius: 50%;
     transform: translateY(-50%);
-    opacity: 0.70;
     z-index: 0;
 }
 
@@ -680,7 +679,7 @@ body {
 }
 
 .contact-title span {
-    color: #FFD700;
+    color: var(--yellow);
 }
 
 .contact-intro {
@@ -688,7 +687,7 @@ body {
     max-width: 600px;
     margin: 0 auto 3rem;
     font-size: 1rem;
-    color: #444;
+    color: #000;
     position: relative;
     z-index: 1;
 }
@@ -766,7 +765,7 @@ body {
 
 /* Partie basse bleue */
 .footer-bottom {
-    background-color: #0a1f3d;
+    background-color: var(--blue);
     padding: 6rem 2rem 3rem;
     /* on laisse de la place pour le téléphone */
     color: #fff;
@@ -784,7 +783,7 @@ body {
 }
 
 .footer-left h3 {
-    color: #FFD700;
+    color: var(--yellow);
     margin-bottom: 1rem;
 }
 
@@ -858,12 +857,70 @@ body {
     /* icônes blanches */
     transition: 0.2s ease;
 }
+/*CONDITION GENERAL*/
+.cgu {
+  max-width: 900px;
+  margin: 6rem auto 4rem; /* espace sous le header fixe */
+  padding: 0 1.5rem;
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.cgu h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: var(--blue);
+  text-align: left;
+}
+
+.cgu h2 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--blue);
+}
+
+.cgu p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.cgu ul {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.cgu ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cgu {
+    margin-top: 5rem;
+    padding: 0 1rem;
+  }
+
+  .cgu h1 {
+    font-size: 1.8rem;
+  }
+
+  .cgu h2 {
+    font-size: 1.3rem;
+  }
+}
+
 
 .footer-socials img:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
-
+@media (min-width: 1600px) {
+    #accueil h1{
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+}
 
 @media (max-width: 1130px) {
     .realisations-grid {
@@ -882,22 +939,13 @@ body {
         gap: 0;
     }
 
-    .service-card.large {
-        grid-column: span 2;
-        /* la grande carte prend toute la largeur */
-        grid-row: auto;
-        /* ne force plus la hauteur */
-        height: auto;
-        /* s’adapte naturellement */
-    }
-
     .service-card {
         height: auto;
         /* les petites cartes s’adaptent aussi */
     }
 
     .service-card img {
-        width: 100%;
+        width: 80%;
         height: auto;
         object-fit: contain;
         display: block;
@@ -907,31 +955,27 @@ body {
 
 
 @media (max-width: 768px) {
+    #accueil h1 {
+        font-family: var(--font-bold);
+        font-size: 60px ;
+        margin-bottom: 4rem;
+    }
+
     .mobile-menu {
         width: 50%;
     }
 
-    #accueil {
-        padding: 4rem 1rem;
-    }
-
-    #accueil h1 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-
     #infoaccueil {
         flex-direction: column;
-        text-align: center;
         gap: 2rem;
     }
 
     #infoaccueil>div:first-child {
-        text-align: center;
         max-width: 100%;
     }
 
     #bubble {
+        margin-top: 4rem;
         width: 100%;
         text-align: center;
     }
@@ -984,7 +1028,7 @@ body {
     }
 
     .service-card img {
-        width: 100%;
+        width: 80%;
         height: auto;
         object-fit: contain;
         display: block;

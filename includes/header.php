@@ -14,7 +14,7 @@
   <div class="header-container">
 
     <div class="header-logo">
-      <img src="./assets/img/paumtop.png" alt="Paumalec">
+      <a href="/paumalec"><img src="./assets/img/paumtop.png" alt="Paumalec"></a>
     </div>
 
     <button class="burger-btn" id="burgerBtn">
@@ -27,14 +27,12 @@
 
   <nav class="mobile-menu" id="mobileMenu">
     <ul>
-      <li><a href="#about">Qui sommes nous ?</a></li>
-      <li><a href="#trust">Ils nous font confiance</a></li>
+      <li><a href="#intro">Qui sommes nous ?</a></li>
+      <li><a href="#confiance">Ils nous font confiance</a></li>
       <li><a href="#services">Nos services</a></li>
       <li><a href="#realisations">Nos réalisations</a></li>
       <li><a href="#devis">Devis</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="#avis">Avis</a></li>
-      <li><a href="#faq">FAQs</a></li>
     </ul>
   </nav>
 </header>
