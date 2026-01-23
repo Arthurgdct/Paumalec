@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
     <title>Paumalec</title>
 </head>
@@ -14,7 +14,7 @@
   <div class="header-container">
 
     <div class="header-logo">
-      <a href="/paumalec"><img src="./assets/img/paumtop.png" alt="Paumalec"></a>
+      <a href="https://www.paumalec.fr/"><img src="./assets/img/paumtop.png" alt="Paumalec"></a>
     </div>
 
     <button class="burger-btn" id="burgerBtn">

@@ -11,7 +11,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'MyriadPro','MyriadProBold', sans-serif;
+    font-family: 'MyriadPro', 'MyriadProBold', sans-serif;
 }
 
 /* ===== VARIABLES ===== */
@@ -174,7 +174,7 @@ body {
 }
 
 /* Bouton */
-#infoaccueil button {
+#infoaccueil a button {
     padding: 0.8rem 1.8rem;
     background-color: var(--yellow);
     border: none;
@@ -857,57 +857,59 @@ body {
     /* icônes blanches */
     transition: 0.2s ease;
 }
+
 /*CONDITION GENERAL*/
 .cgu {
-  max-width: 900px;
-  margin: 6rem auto 4rem; /* espace sous le header fixe */
-  padding: 0 1.5rem;
-  font-family: Arial, sans-serif;
-  color: #222;
-  line-height: 1.6;
+    max-width: 900px;
+    margin: 6rem auto 4rem;
+    /* espace sous le header fixe */
+    padding: 0 1.5rem;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
 }
 
 .cgu h1 {
-  font-size: 2.2rem;
-  margin-bottom: 2rem;
-  color: var(--blue);
-  text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--blue);
+    text-align: left;
 }
 
 .cgu h2 {
-  font-size: 1.4rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  color: var(--blue);
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--blue);
 }
 
 .cgu p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .cgu ul {
-  margin: 1rem 0 1rem 1.5rem;
+    margin: 1rem 0 1rem 1.5rem;
 }
 
 .cgu ul li {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Responsive */
+/* Responsive CGU*/
 @media (max-width: 768px) {
-  .cgu {
-    margin-top: 5rem;
-    padding: 0 1rem;
-  }
+    .cgu {
+        margin-top: 5rem;
+        padding: 0 1rem;
+    }
 
-  .cgu h1 {
-    font-size: 1.8rem;
-  }
+    .cgu h1 {
+        font-size: 1.8rem;
+    }
 
-  .cgu h2 {
-    font-size: 1.3rem;
-  }
+    .cgu h2 {
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -915,8 +917,9 @@ body {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
 @media (min-width: 1600px) {
-    #accueil h1{
+    #accueil h1 {
         margin-bottom: 5%;
         margin-left: 10%;
     }
@@ -957,7 +960,7 @@ body {
 @media (max-width: 768px) {
     #accueil h1 {
         font-family: var(--font-bold);
-        font-size: 60px ;
+        font-size: 60px;
         margin-bottom: 4rem;
     }
 
@@ -992,6 +995,14 @@ body {
         margin: auto;
     }
 
+    #contactintro a {
+        display: block;
+        margin: 1.5rem auto 0;
+        /* centre automatiquement */
+        text-align: center;
+    }
+
+
     #intro>div:last-child>div {
         text-align: center;
     }
@@ -1007,6 +1018,10 @@ body {
         height: 70px;
     }
 
+    #services {
+        padding: 2rem 1rem;
+    }
+
     .service-card.large {
         grid-column: span 2;
         /* prend toute la largeur */
@@ -1014,6 +1029,10 @@ body {
         /* ne force pas la hauteur */
         height: auto;
         /* laisse la hauteur naturelle */
+    }
+
+    .service-card:not(.large) {
+        aspect-ratio: auto;
     }
 
     .services-grid {

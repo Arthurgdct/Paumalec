@@ -1,14 +1,14 @@
 <footer class="site-footer">
     <div class="footer-top">
         <div class="footer-phone-wrapper">
-            <img src="./assets/img/smartphone.png" alt="Téléphone" class="footer-phone">
-            <img src="./assets/img/qr-code.png" alt="QR Code" class="footer-qrcode">
+            <img src="/assets/img/Smartphone.png" alt="Téléphone" class="footer-phone">
+            <img src="/assets/img/qr-code.png" alt="QR Code" class="footer-qrcode">
         </div>
     </div>
     <div class="footer-bottom">
         <div class="footer-content">
             <div class="footer-left">
-                <a href="/paumalec"><img src="./assets/img/paumbot.png" alt=""></a>
+                <a href="https://www.paumalec.fr/"><img src="./assets/img/paumbot.png" alt=""></a>
                 <div class="footer-links">
                     <ul>
                         <li><a href="#intro">Qui sommes nous ?</a></li>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="footer-socials">
-            <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.instagram.com/"><img src="./assets/img/Instagram.png" alt="Instagram"></a>
             <a href="https://www.facebook.com/"><img src="./assets/img/Facebook.png" alt="Facebook"></a>
             <a href="https://x.com"><img src="./assets/img/X.png" alt="X / twitter"></a>
         </div>

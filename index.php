@@ -1,5 +1,5 @@
 <?php
-include 'Includes/header.php'
+include 'includes/header.php';
 ?>
 <main>
     <section id="accueil">
@@ -7,7 +7,7 @@ include 'Includes/header.php'
         <div id="infoaccueil">
             <div>
                 <p> Votre partenaire électricité pour les professionels</p>
-                <button>Contact</button>
+                <a href="#contact"><button>Contact</button></a>
             </div>
             <div class="bg-white border-radius m1 p1" id="bubble">
                 <h2>Des interventions fiables pour vos infrastructures</h2>
@@ -24,14 +24,14 @@ include 'Includes/header.php'
                 professionnels depuis plus de 20 ans.</p>
         </div>
         <div>
-            <img src="assets/img/electricien" alt="Photo d'un électricien de l'entreprise en pleine intervention.">
-            <div>
+            <img src="/assets/img/electricien.png" alt="Photo d'un électricien de l'entreprise en pleine intervention.">
+            <div id="contactintro">
                 <p>Chaque intervention fait preuve de la même exigeance afin de fournir un travail fiable soigné et
                     durable.<br>Cette constance nous a permis de bâtir une relation de confiance solide avec nos clients, dont
                     beaucoup nous suivent depuis le début.<br>Notre plus grande force est donc ce lien de confiance entre client et artisan que nous entretenons
                     par des interventions de qualité, avec des tarifs juste et adaptés à leurs besoins.
                 </p>
-                <button>Contact</button>
+                <a href="#contact"><button>Contact</button></a>
             </div>
         </div>
     </section>
@@ -77,13 +77,13 @@ include 'Includes/header.php'
     <section id="realisations" class="realisations">
         <h2><span class="yellow">N</span>os Réalisations</h2>
         <div class="realisations-grid">
-            <div class="real-card" data-full="assets/img/full1.jpg"> <img src="assets/img/thumb1.jpg"
+            <div class="real-card" data-full="/assets/img/full1.jpg"> <img src="/assets/img/thumb1.jpg"
                     alt="salle de massage avec éclairage bleu"> </div>
-            <div class="real-card" data-full="assets/img/full2.jpg"> <img src="assets/img/thumb2.jpg"
+            <div class="real-card" data-full="/assets/img/full2.jpg"> <img src="/assets/img/thumb2.jpg"
                     alt="intérieur d'un spa"> </div>
-            <div class="real-card" data-full="assets/img/full3.jpg"> <img src="assets/img/thumb3.jpg"
+            <div class="real-card" data-full="/assets/img/full3.jpg"> <img src="/assets/img/thumb3.jpg"
                     alt="salle de massage avec plafond végétal"> </div>
-            <div class="real-card" data-full="assets/img/full4.jpg"> <img src="assets/img/thumb4.jpg"
+            <div class="real-card" data-full="/assets/img/full4.jpg"> <img src="/assets/img/thumb4.jpg"
                     alt="piscine avec rétro-éclairage au plafond"> </div>
         </div>
         <div class="popup" id="popup"> <span class="close">&times;</span> <img id="popup-img" alt="Agrandissement">
@@ -134,5 +134,5 @@ include 'Includes/header.php'
 
 </main>
 <?php
-include 'Includes/footer.php'
+include 'includes/footer.php';
 ?>
